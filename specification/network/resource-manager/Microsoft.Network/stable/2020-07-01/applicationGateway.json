@@ -1507,7 +1507,17 @@
       "properties": {
         "data": {
           "type": "string",
-          "description": "Certificate public data."
+          "description": "Certificate chain public data."
+        },
+        "validatedCertData": {
+          "readOnly": true,
+          "type": "string",
+          "description": "Certificate chain public data post validation after removing any double encoding and invalid CA certificates. Only applicable in GET request."
+        },
+        "clientCertIssuerDN": {
+          "readOnly": true,
+          "type": "string",
+          "description": "Leaf CA Certifcate subject name that issues the client certificates. Only applicable in GET request."
         },
         "provisioningState": {
           "readOnly": true,

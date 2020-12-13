@@ -324,7 +324,9 @@
               "id": "/subscriptions/subid/resourceGroups/rg1/providers/Microsoft.Network/applicationGateways/appgw/trustedClientCertificates/clientcert",
               "properties": {
                 "provisioningState": "Succeeded",
-                "data": "****"
+                "data": "****",
+                "validatedCertData": "****",
+                "clientCertIssuerDN": "xyz"
               }
             }
           ],
@@ -607,7 +609,9 @@
               "id": "/subscriptions/subid/resourceGroups/rg1/providers/Microsoft.Network/applicationGateways/appgw/trustedClientCertificates/clientcert",
               "properties": {
                 "provisioningState": "Succeeded",
-                "data": "****"
+                "data": "****",
+                "validatedCertData": "****",
+                "clientCertIssuerDN": "xyz"
               }
             }
           ],
